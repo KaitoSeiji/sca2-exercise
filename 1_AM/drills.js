@@ -2,16 +2,25 @@ const assert = require("assert");
 
 // Feel free to look things up online!
 
-const tokenize = str => {
+const tokenize = function(str) {
   // TODO - write a function which converts a multi-word string into an array of words
+  const list1 = []
+  const res = list1.push(str);
+  const split = str.split(" ")
+  return(split);
 };
 
-const reverse = str => {
+const reverse1 = function(str) {
   // TODO - write a function which reverses the string
+  const list2 = []
+  const reset = list2.push(str);
+  const split0 = str.split("").reverse()
+  return(split0)
 };
 
 const uniqueOnes = arr => {
   // TODO - write a function which returns the inputted array without duplicate elements
+  const person = promt("Hello, my name is Khaatir.", "What's yours?")
 };
 
 const factorial = num => {
@@ -40,6 +49,8 @@ const announceDate = () => {
 
 // Write tests here:
 
+console.log(tokenize("Hi, I'm Bob"))
+console.log(reverse1("Hello"))
 assert(1 < 2);
 assert(1 + 2 === 3);
 assert([2, 3][0] === 2);
